@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main(){
+	string name;
+	string roomType;
+	int numNights;
+	double roomRate;
+	double total;
+	cout<<"Welcome to the hotel management system:"<<endl;
+	cout<<"Enter name:"<<name<<endl;
+	cin>>name;
+	cout<<"Please enter the room type - (AC OR NON AC)"<<endl;
+	cin>>roomType;
+	cout<<"Enter the number of nights:"<<endl;
+	cin>>numNights;
+	cout<<"Enter the room rate:"<<endl;
+	cin>>roomRate;
+	total=roomRate*numNights;
+	cout<<"total is:"<<total<<endl;
+	return 0;
+}
